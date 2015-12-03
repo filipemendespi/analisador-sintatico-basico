@@ -1,6 +1,6 @@
 # Trabalho de compiladores FACID/Devry
-### Prof. Igor Revoredo
-### Alunos: Filipe Mendes e Rafael Belo
+Professor: Igor Revoredo
+Alunos: Filipe Mendes e Rafael Belo
 
 ## ANALISADOR SINTÁTICO
 
@@ -9,7 +9,7 @@ O analisador receberá um texto com os tokens
 Problema: Implementar um ASD preditivo recursivo sobre a gramática:
 G = ({COMANDO, CONDICIONAL, ITERATIVO, ATRIBUIÇÃO, EXPRESSÃO},
      {if, then, while, do, repeat, until, id, :=, num},
-     PROCESS, Comando)
+     PROCESS, COMANDO)
 
 PROCESS:
 COMANDO     -> *CONDICIONAL* | *ITERATIVO* | *ATRIBUIÇÃO*
